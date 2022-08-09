@@ -1,4 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+@font-face {
+  font-family: "Norse-Bold";
+  src: url(Norse-Bold.otf);
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -33,6 +39,7 @@ body {
   align-items: center;
   color: white;
   font-size: 8vh;
+  font-family: "Norse-Bold";
 }
 
 .banner img {
@@ -42,6 +49,9 @@ body {
 .bottomtext {
   color: white;
   align-self: center;
+}
+.bottomtext a {
+  color: white;
 }
 
 .right-side {
