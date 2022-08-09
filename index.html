@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="left-side">
+      <div class="banner">
+        <img src="odin-lined.png" alt="odin logo" />
+        <p>ODIN</p>
+      </div>
+      <div class="bottomtext">
+        <p>Image by Halie West on Unsplash</p>
+      </div>
+    </div>
+
+    <div class="right-side">
+      <div class="toptext">
+        <h2>
+          This is not a real online service! You know you need something like
+          this in your life to help you realize your deepest dreams. <br />
+          Sign up <em>now</em> to get started.
+        </h2>
+        <h2 class="toptextlast">You <em>know</em> you want to.</h2>
+      </div>
+
+      <div class="whitebox">
+        <form>
+          <h2>Let's do this!</h2>
+          <container class="form">
+            <div class="leftform">
+              <div class="form-control">
+                <label for="firstname">FIRST NAME</label>
+                <input type="text" id="firstname" name="firstname" />
+                <small class="error">err</small>
+              </div>
+
+              <div class="form-control">
+                <label for="email">EMAIL</label>
+                <input type="email" id="email" name="email" />
+                <small class="error">err</small>
+              </div>
+
+              <div class="form-control">
+                <label for="pw">PASSWORD</label>
+                <input type="password" id="pw" name="pw" />
+                <small class="error">err</small>
+              </div>
+            </div>
+
+            <div class="rightform">
+              <div class="form-control">
+                <label for="lastname">LAST NAME</label>
+                <input type="text" id="lastname" name="lastname" />
+                <small class="error">err</small>
+              </div>
+
+              <div class="form-control">
+                <label for="tel">PHONE NUMBER</label>
+                <input type="tel" id="tel" name="tel" />
+                <small class="error">err</small>
+              </div>
+
+              <div class="form-control">
+                <label for="confirmpw">CONFIRM PASSWORD</label>
+                <input type="password" id="confirmpw" name="confirmpw" />
+                <small class="error">err</small>
+              </div>
+            </div>
+          </container>
+          <div class="bottom">
+            <button type="submit">Create Account</button>
+            <p class="login">Already have an account? <a href="">Log in</a></p>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

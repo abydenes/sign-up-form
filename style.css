@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  background-color: rgba(241, 241, 241, 0.418);
+}
+
+.left-side {
+  background: url("halie-west.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 100vh;
+  min-width: 35vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.banner {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: relative;
+  height: 15vh;
+  width: 100%;
+  top: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 8vh;
+}
+
+.banner img {
+  height: 12vh;
+}
+
+.bottomtext {
+  color: white;
+  align-self: center;
+}
+
+.right-side {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.toptext {
+  margin: 0 200px 50px 50px;
+}
+
+.toptextlast {
+  margin-top: 30px;
+}
+
+.whitebox {
+  background-color: white;
+  height: 35vh;
+  box-shadow: 5px 3px 10px rgba(209, 209, 209, 0.61);
+}
+
+.whitebox h2 {
+  margin: 15px 0px 5px 0px;
+}
+
+form {
+  margin-left: 50px;
+}
+
+.form {
+  display: flex;
+}
+
+.form-control {
+  padding: 5px 10px 0px 0px;
+  margin: 10px 150px 30px 0px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+label {
+  letter-spacing: 0.1rem;
+  color: rgb(0, 0, 0);
+  font-size: 0.85rem;
+}
+
+input {
+  padding: 5px 100px 10px 5px;
+  border: 1px solid #e5e7eb;
+  border-radius: 4px;
+}
+
+.form-control.success input {
+  border-color: green;
+}
+
+.form-control.error input {
+  border-color: red;
+}
+
+.bottom {
+  margin-top: 80px;
+}
+
+button {
+  padding: 10px 50px;
+  background-color: #596d48;
+  border-radius: 5px;
+  color: white;
+  font-size: 1.3rem;
+  font-weight: 900;
+  border-style: none;
+}
+
+.login {
+  margin-top: 10px;
+}
+
+.login a {
+  text-decoration: none;
+  color: #596d48;
+}
+
+.form-control small {
+  visibility: hidden;
+  position: absolute;
+  bottom: -20px;
+}
+
+.form-control.error small {
+  visibility: visible;
+  color: #e74c3c;
+}
+
+.form-control.success input {
+  border-color: #2ecc71;
+}
+
+.form-control input:focus {
+  outline: none;
+  border: 1px solid blue;
+  box-shadow: 2px 2px 3px rgba(209, 209, 209, 0.61);
+}
